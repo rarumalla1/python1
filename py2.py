@@ -12,6 +12,3 @@ def fetch_words():
 if __name__ == '__main__':
     fetch_words()
 
-
-    #python modules, scripts and python programs
-    
