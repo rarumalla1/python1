@@ -1,3 +1,5 @@
+#!/usr/bin/env python #shebang will allow to you tell the module which python interpreter to be used
+
 """Retrieve and print words from URL.
 Usage:
     python py2.py <URL>
@@ -35,6 +37,6 @@ def main(url):
     print_items(words)
 
 if __name__ == '__main__':
-    main(sys.argv[1])
+    main(sys.argv[1]) # The 0th arg is the module filename
 
 
